@@ -1,6 +1,6 @@
 # README — Projetos KiSite
 
-**Projeto:** NOME-DO-PROJETO  
+**Projeto:** Industrial-01  
 **Autor / Responsável:** KiSite  
 **Website:** https://www.kisite.com.br  
 **Data:** 2025-08-19  
@@ -107,6 +107,41 @@ Para autorizações de uso diferente do previsto aqui, pedidos de remoção/alte
 Este arquivo tem caráter informativo e busca proteger de forma profissional os interesses da KiSite e dos clientes. **Não substitui aconselhamento jurídico**. Para contratos e licenças com efeitos legais específicos (por exemplo, transferência total de direitos, cláusulas de confidencialidade, contratos de prestação de serviços), consulte um advogado para redigir ou validar os termos.
 
 ---
+
+## 10. Estrutura do projeto e recursos
+
+Este projeto inclui uma estrutura moderna e recursos pré-configurados para facilitar desenvolvimento, customização e publicação. Principais características técnicas e blocos prontos incluídos:
+
+- HTML5 e CSS3 válidos
+- Codificação com suporte a **Sass** (pré-processamento de CSS)
+- Estrutura baseada em **Bootstrap v5**
+- Suporte a fontes da web do **Google Fonts**
+- Suporte aos **ícones do Bootstrap**
+- Suporte a **Font Awesome (Fonte Ícone incrível)**
+- Mais de **09 páginas de demonstração** pré-criadas
+- Código bem comentado e amigável ao desenvolvedor
+- Layout único, flexível e facilmente customizável
+- Compatibilidade entre navegadores modernos
+- Barra de navegação totalmente responsiva
+- Carrossel de cabeçalho estiloso
+- **Contador** animado para números/fatos
+- Barra de progresso animada
+- Lista de serviços pronta para uso
+- Galeria de imagens no rodapé
+- Rolagem suave por página (scroll)
+- Formulário de agendamento funcional
+- Seção de equipe com links sociais integrados
+- Carrossel de depoimentos (testimonials)
+- Imagens com animações e efeitos CSS3
+- Efeitos de foco (focus) em formulários com CSS3
+- Formulário de inscrição para boletim (newsletter)
+- Links sociais com ícones prontos
+- Botão “Voltar ao topo” (Back to top)
+- Formulário de contato operável
+- Integração com **Google Maps** (mapa incorporado)
+- Design e estrutura fáceis de usar e estender
+
+Estas funcionalidades foram incluídas para acelerar a entrega e garantir uma base sólida para personalizações futuras. Se alguma dessas features não for utilizada no projeto final, remova ou comente o código correspondente para reduzir o peso da página.
 
 ### Obrigado por escolher a KiSite.
 Se precisar que eu gere uma versão em inglês, um `CHANGELOG.md`, ou que eu compacte este README em um pacote `.zip` com os arquivos do projeto, eu posso gerar isso para você.
