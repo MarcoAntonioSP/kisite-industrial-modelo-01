@@ -29,6 +29,41 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <!-- Estilos do botão WhatsApp flutuante -->
+    <style>
+        .whatsapp-float{
+            position: fixed;
+            right: 20px;
+            bottom: 90px;
+            z-index: 1050;
+            background-color: #25D366;
+            color: #fff;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 6px 18px rgba(37,211,102,0.35);
+            transition: transform .15s ease-in-out;
+            text-decoration: none;
+            font-size: 28px;
+        }
+        .whatsapp-float:hover{
+            transform: translateY(-4px);
+            text-decoration: none;
+            color: #fff;
+        }
+        @media (max-width: 576px){
+            .whatsapp-float{
+                right: 15px;
+                bottom: 80px;
+                width: 50px;
+                height: 50px;
+                font-size: 22px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -527,7 +562,7 @@
                         </div>
                     </div>
                     <div class="testimonial-text text-center rounded p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo justo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
                         <h5 class="mb-1">Nome do Cliente</h5>
                         <span class="fst-italic">Profissão</span>
                     </div>
@@ -540,7 +575,7 @@
                         </div>
                     </div>
                     <div class="testimonial-text text-center rounded p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo justo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
                         <h5 class="mb-1">Nome do Cliente</h5>
                         <span class="fst-italic">Profissão</span>
                     </div>
@@ -553,7 +588,7 @@
                         </div>
                     </div>
                     <div class="testimonial-text text-center rounded p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo justo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
                         <h5 class="mb-1">Nome do Cliente</h5>
                         <span class="fst-italic">Profissão</span>
                     </div>
@@ -625,6 +660,10 @@
     <!-- Voltar ao Topo -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
 
+    <!-- Botão WhatsApp flutuante -->
+    <a href="https://wa.me/5511999999999?text=Ol%C3%A1%20tenho%20interesse%20em%20seus%20servi%C3%A7os" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="WhatsApp 11 99999-9999" title="WhatsApp: 11 99999-9999">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+    </a>
 
     <!-- Bibliotecas JavaScript -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
