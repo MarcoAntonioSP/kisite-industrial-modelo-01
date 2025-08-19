@@ -52,7 +52,7 @@ Partes deste projeto foram baseadas em templates e bibliotecas de terceiros. Qua
 
   =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
 
-  =>  Template Author  : HTML Codex
+  =>  Template Author  : KiSite---HTML Codex
 
   =>  Author Website   : https://htmlcodex.com
 ```
